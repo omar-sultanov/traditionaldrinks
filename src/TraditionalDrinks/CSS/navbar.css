@@ -15,8 +15,9 @@
     .BrandName {
         display: flex;
         justify-content: center;
-        flex-direction: column;
-        align-items: center;
+    }
+    .BrandName h3{
+        padding:5px 20px;
     }
   }
 
