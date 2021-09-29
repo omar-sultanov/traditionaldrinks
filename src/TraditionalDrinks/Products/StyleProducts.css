@@ -1,0 +1,26 @@
+.Product .card{
+    width: 250px;
+    margin: 10px;
+    box-shadow: black 1px 1px 6px;
+    border: none;
+}
+.Product{
+    text-align: center;
+}
+.Product input{
+    width: 90%;
+   margin: 10px auto;
+   padding: 10px;
+
+}
+.Product .syrup,.Product .tea{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Product .syrup h3,.Product .tea h3{
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+}

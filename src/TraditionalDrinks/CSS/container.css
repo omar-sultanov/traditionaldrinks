@@ -1,0 +1,53 @@
+.dark-bg{
+    background-image: linear-gradient(rgba(0,0,0, .8),rgba(0,0,0, .8)),url('../Images/cemiyyet.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hero .container{
+    height: 50vh;
+}
+#latest .latest-items img{
+    min-width: 100%;
+    min-height: 100%;
+}
+#latest .latest-items button{
+    height: 200px;
+    
+    padding: 0;
+    overflow: hidden;
+}
+#latest .latest-items{
+    position: relative;
+}
+.latest-items:hover .overlay{
+    opacity: 1;
+    background-color: rgba(131, 34, 5, 0.9);
+}
+#latest .latest-items:hover i {
+    opacity: 1;
+    transform: none;
+}
+.latest-items .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(116, 94, 97);
+    opacity: .5;
+    color: white;
+    transition: all .5s;
+}
+.latest-items .overlay i{
+    transform: translateY(20);
+    transition: all .2s;
+    opacity: 0;
+    font-size: 2rem;
+    
+}
+#hero .bi.bi-play-circle-fill{
+    height: 50px;
+    width: 50px;
+}
+

@@ -1,0 +1,14 @@
+
+
+.About h3{
+   text-shadow: black 1px 1px 6px;
+   padding: 10px;
+}
+.About p{
+   letter-spacing: 1px;
+   line-height: 24px;
+  
+}
+.About{
+   width: 100%;
+}

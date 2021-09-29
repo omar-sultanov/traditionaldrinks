@@ -1,0 +1,49 @@
+
+#footer h3{
+
+        font-weight: bold;
+    }
+#footer h3 span{
+        color: RGB(237, 61, 58);
+    
+}
+#footer input{
+    height: 50px;
+}
+#footer #emailIn{
+    width: 300px;
+    border: solid rgb(151, 142, 142) 1px;
+}
+#footer #submitIn{
+    background-color:RGB(237, 61, 58) ;
+    color: white;
+    border: transparent solid 1px;
+
+}
+#footer #submitIn:hover{
+    border:solid RGB(237, 61, 58) 1px;
+    color: RGB(237, 61, 58);
+    background-color: white;
+    box-sizing: border-box;
+}
+#footer p{
+    font-size: 14px;
+
+}
+#footerText{
+     width:60%;
+}
+#footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 8px;
+    letter-spacing: 2px;
+}
+#footer a:hover{
+    color: rgb(151, 145, 145);
+}
+#footer .my-5{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+.carousel-item img{
+    background-position: center;
+    background-size: cover;
+
+}
+
+#carouselExampleCaptions .carousel-indicators button{
+   height: 12px;
+   width: 12px;
+   border: solid rgb(156, 152, 152) 3px;
+   border-radius: 50%;
+}
+#carouselExampleCaptions .carousel-indicators .active{
+    background-color: rgb(57, 57, 61);
+}

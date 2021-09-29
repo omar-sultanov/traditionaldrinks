@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    font-family: "Poppins";
+}
+.BrandName{
+    display: flex;
+    justify-content: space-between;
+    padding:15px 24px;
+    width: 100%;
+    flex-wrap: wrap;
+  
+}
+@media only screen and (max-width: 445px) {
+    .BrandName {
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+.BrandName a {
+    text-decoration: none;
+}
+.BrandName a i {
+    font-size: 14px;
+    border-radius: 50%;
+    border: solid black 1px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 3px;
+}
+
+.BrandName a i:hover {
+    background-color: black;
+    color: white;
+}
+.BrandName h3{
+    font-weight: bold;
+}
+.BrandName h3 span{
+    color: RGB(237, 61, 58);
+} 
+#navBar {
+    background-color:black;
+}
+#navbarNav ul li {
+    position: relative;
+
+}
+#navbarNav ul li a {
+    color: white;
+    padding: 20px 15px;
+}
+#navbarNav ul li:hover {
+    transition: 2.4s;
+    background-color: white;
+}
+#navbarNav ul li a:hover {
+    color:black;
+}
+#navbarNav ul li::before {
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 2px;
+
+}
+#navbarNav ul li:hover::before {
+    width: 100%;
+    content: "";
+    height: 4px;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    transition: 2.4s;
+    border-radius: 0;
+}
